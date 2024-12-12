@@ -1,0 +1,181 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-weight: 900;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+
+
+    background-size: cover;
+    background-color: #c7c5bf;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 400px;
+    background-image: url(Imagenes/Fondo7.jpg);
+    background-position: 50% 0%;
+
+
+}
+
+/* cuadriculas de los eventos*/
+.evento {
+    border: 2px solid #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Parrafos*/
+.evento p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Sinfonia Mozart*/
+.evento img {
+    width: 50%;
+
+    height: auto;
+
+    border-radius: 5px;
+
+    margin-top: 10px;
+}
+
+.Cajas {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    border-image-source: linear-gradient(#FFA500, #000000);
+    margin: 20px;
+    padding: 10px;
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;
+
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*navegador de las partes de arriba*/
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+thead {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+td {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.pie-imagen {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #000000fb;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form button {
+    background-color: #2a3d66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f2b3d;
+}
