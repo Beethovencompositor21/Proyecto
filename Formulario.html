@@ -76,6 +76,11 @@
                     <textarea  name="mensaje" required minlength="10" maxlength="500"
                         title="El mensaje debe tener entre 10 y 500 caracteres."></textarea>
 
+                        <form action="recibir.php" method="get">
+                            <p>Sube tu archivo <input type="file" name="archivo" /></p>
+                            <p>Sube tu imagen <input type="file" name="imagen" accept="image/png, image/jpg, image/gif" /></p>
+                            <p><input type="submit" value="Enviar" /></p>
+                        </form>
                     <button type="submit">Enviar</button>
                 </form>
             </div>

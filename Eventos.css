@@ -98,17 +98,18 @@ table {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+/*cabecera tabla*/
 thead {
     background-color: #2a2a2a;
     color: white;
 }
 
-th,
+/* filas*/
 td {
     padding: 12px 15px;
     text-align: center;
     border: 1px solid #ddd;
+    color: #333;
 }
 
 
@@ -122,9 +123,7 @@ tbody tr:hover {
 }
 
 
-td {
-    color: #333;
-}
+
 
 footer {
     background-color: #333;

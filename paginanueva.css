@@ -1,0 +1,27 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+
+    /* cosas del fondo*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(Imagenes/fondo2.jpg)
+}
+form button {
+    background-color: #2a3d66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #ee0303;
+    transition: 10s;
+    transform: scale(1.2);
+
+}
